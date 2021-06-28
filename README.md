@@ -1,2 +1,3 @@
 # to-do-console
 Console based to-do app, doesn't create a separate database...
+Stores new to-do in an array.
