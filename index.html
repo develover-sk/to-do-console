@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <style>
+        .container {
+            text-align: left;
+            margin-top: 5%;
+            margin-left: 10%;
+        }
+	button{
+	    border:2px solid black;
+	    border-radius: 50px;
+	    margin-top:15px;
+	    padding: 10px 25px;
+	}
+	button:hover{
+	     cursor: pointer;
+	}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Todo List</h1>
+
+
+        <p>List of Commands:</p>
+        <ul>
+            <li>"new" - Add A Todo</li>
+            <li>"list" - List All Todos</li>
+            <li>"delete" - Remove Specific Todo</li>
+            <li>"quit" - Quit App</li>
+        </ul>
+        <p>Instructions:</p>
+        <ul>
+            <li>To test the function of this todo app, you need to open the browser console. The corresponding commands are as given above.</li>
+        </ul>
+
+        <button value="START" onclick="start()">START</button>
+
+    </div>
+    <script src="todos.js"></script>
+</body>
+
+</html>
